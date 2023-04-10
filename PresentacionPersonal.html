@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Presentación Personal</title>
+    <link rel="stylesheet" href="css/estilosTP.css">
+    <script>
+        window.onload = function() {
+          alert("La página se ha cargado.");
+        };
+        function toggleInfo(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
+  </head>
+  <body>
+    <h1>Antony Felipe Gonzales Rojas</h1>
+    <img src="foto.PNG" alt="Foto" class="foto" />
+    <h2 >Presentación personal</h2>
+    <div ><p>
+      Soy una persona apasionada por la tecnología y me encanta estar al tanto
+      de las últimas tendencias. Me gusta programar y arreglar dispositivos
+      electrónicos. En mis ratos libres disfruto correr, jugar fútbol y ver
+      películas de misterio. También me gusta mucho la lectura.
+    </p></div>
+    <hr />
+    <div><p>
+      Me interesa mucho el tema de inteligencia artificial y el analisis de base
+      de datos y me gustaria seguir aprendiendo muchas cosas mas relacionadas a
+      la correcta creacion de paginas web y aplcaciones mobiles
+    </p></div>
+    <h2 onclick="toggleInfo('tabla1')" onmouseover="this.style.cursor='pointer'">Tecnologías y lenguajes de programación</h2>
+    <table id="tabla1" style="display:none" border="1">
+      <tr>
+        <th>Tecnología o Lenguaje</th>
+        <th>Nivel de Conocimiento</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Básico</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>Básico</td>
+      </tr>
+      <tr>
+        <td>Java</td>
+        <td>Básico</td>
+      </tr>
+    </table>
+
+    <h2 onclick="toggleInfo('tabla2')" onmouseover="this.style.cursor='pointer'">Formación Profesional</h2>
+    <table id="tabla2" style="display:none" border="1">
+      <tr>
+        <th>Institución Educativa</th>
+        <th>Carrera o Especialidad</th>
+        <th>Estado</th>
+      </tr>
+      <tr>
+        <td>Universidad de San Agustín de Arequipa</td>
+        <td>Ingeniería Electrónica</td>
+        <td>Egresado</td>
+      </tr>
+      <tr>
+        <td>Instituto TECSUP</td>
+        <td>Diseño y Desarrollo de Software</td>
+        <td>Estudiante</td>
+      </tr>
+    </table>
+
+    <h2>Idiomas</h2>
+    <ul>
+      <li>Español (Nativo) <i class="material-symbols-outlined icono_azul">done</i></li>
+      <li>Inglés (Intermedio) <i class="material-symbols-outlined icono_azul">done</i></li>
+    </ul>
+
+    <h2>Video acerca de mi carrera</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/aMQb992Obzo"
+      title="TECSUP HOY   Diseño y desarrollo de Software en esta nueva Normalidad - #HuellaDigital"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>

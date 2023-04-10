@@ -1,0 +1,127 @@
+/* Estilos para la página de presentación personal */
+
+/* Estilos para el encabezado */
+h1 {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: overline underline;
+  }
+  
+  div{
+    font-size: 18px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #444;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px;
+    border: 10px solid #457b9d;
+    margin: 20px;
+  }
+  /* Estilos para la foto */
+  .foto {
+    display: block;
+    margin: auto;
+    border: 5px solid #333;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  /* Estilos para el subencabezado */
+  h2 {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #666;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el párrafo */
+  p {
+    font-size: 18px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #444;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  
+    /* Estilos para la tabla */
+  #tabla1 {
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  #tabla1 th,
+  #tabla1 td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #tabla1 th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #tabla1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  /* Estilos para la tabla2 */
+  #tabla2 {
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  
+  #tabla2 th,
+  #tabla2 td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #tabla2 th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  #tabla2 tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  /* Estilos para la lista */
+  ul {
+    font-size: 18px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #444;
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para el video */
+  iframe {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 560px;
+    height: 315px;
+    border: none;
+  }
+  body{
+    background-color: hsl(190, 21%, 66%);
+}
+
+body{
+    text-align: center;
+    border: 3px solid rgb(0, 29, 73)
+    
+}
